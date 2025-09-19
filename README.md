@@ -1,37 +1,39 @@
-<img width="1920" height="1080" alt="Screenshot 2025-09-19 224024" src="https://github.com/user-attachments/assets/675a9391-b8d7-4e3c-a0d2-4d4a14ee5706" />
-
-🧪 Automation Test Runner (GUI + HTML Reports + Screenshots)
+<h1>🧪 Automation Test Runner (GUI + HTML Reports + Screenshots)</h1>
 This project is a GUI-based Automation Test Runner built with Python, Tkinter (CustomTkinter), Selenium, and HtmlTestRunner. It provides a user-friendly interface for running Selenium-based test cases, generating HTML execution reports, and capturing screenshots on test failures/errors.
 
-🚀 Key Features
-GUI Application
 
-Start and manage test execution via a modern Tkinter interface.
+<img width="1920" height="1080" alt="Screenshot 2025-09-19 224024" src="https://github.com/user-attachments/assets/675a9391-b8d7-4e3c-a0d2-4d4a14ee5706" />
 
-Browse and select test case folders easily.
 
-Real-time console output with color-coded test statuses.
+<h6>🚀 Key Features</h6>
+  GUI Application
+  
+  Start and manage test execution via a modern Tkinter interface.
+  
+  Browse and select test case folders easily.
+  
+  Real-time console output with color-coded test statuses.
+  
+  Summary cards showing total, passed, failed, error, and skipped test counts.
 
-Summary cards showing total, passed, failed, error, and skipped test counts.
+<h6>Test Execution</h6>
 
-Test Execution
+  Executes Selenium-based unittest test cases.
+  
+  Captures screenshots automatically on test failures or errors.
+  
+  Generates clean HTML reports (via HtmlTestRunner).
+  
+  Reporting & Debugging
+  
+  Opens the latest HTML report in the browser with one click.
+  
+  Console log with clear indicators for test start, pass, fail, error, skip.
+  
+  Duration of each test displayed in real time.
 
-Executes Selenium-based unittest test cases.
-
-Captures screenshots automatically on test failures or errors.
-
-Generates clean HTML reports (via HtmlTestRunner).
-
-Reporting & Debugging
-
-Opens the latest HTML report in the browser with one click.
-
-Console log with clear indicators for test start, pass, fail, error, skip.
-
-Duration of each test displayed in real time.
-
-📂 Folder Structure
-automation-test-runner/ │── tests/ # Your Selenium unittest test cases │ ├── sample_test.py # Example test case │ │── reports/ # Auto-generated HTML & screenshot reports │ │── test_runner.py # Main GUI Application (this script) │ │── requirements.txt # Python dependencies │── README.md # Project documentation
+<h6>📂 Folder Structure</h6>
+  automation-test-runner/ │── tests/ # Your Selenium unittest test cases │ ├── sample_test.py # Example test case │ │── reports/ # Auto-generated HTML & screenshot reports │ │── test_runner.py # Main GUI     Application (this script) │ │── requirements.txt # Python dependencies │── README.md # Project documentation
 
 ▶ How to Run
 Clone this repository:
